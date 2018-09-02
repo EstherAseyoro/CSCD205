@@ -52,3 +52,24 @@ git commit -m "a2_10679574"
 git config --user.name "EstherAseyoro"
 git commit -m "first commit"
 git commit -m "Add existing file"
+nano A3_10679574
+nano 
+nano A3_10679574.cc
+g++ -o A3_10679574 A3_10679574.cc
+./A3_10679574
+g++ -o A3_10679574 A3_10679574.cc
+./A3_10679574
+nano switch.cc
+g++ -o switch switch.cc
+git config --global user.name "EstherAseyoro"
+git config --global user.email "esteeblacksmith87@gmail.com"
+git init Myassignment
+cd Myassignment
+git add A3_10679574.cc
+cd
+git add A3_10679574.cc
+git commit -m "commit"
+git remote add origin https://github.com/EstherAseyoro/Myassignment.git
+git push origin master
+git remote add origin https://github.com/EstherAseyoro/Mytest.git
+git push origin master

@@ -186,7 +186,7 @@
     <id>Alt_Tab_Switcher_Popup_Delay_Removal_logswithmoss_gmail.com</id>
     <name>Alt-Tab Switcher Popup Delay Removal</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Causes the alt-tab popup overlay to display immediately</p></description>
+    <description><p>Causes the alt-tab popup overlay to display immediately.</p><p>Note: Effects all kinds of pop-ups!</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -3460,11 +3460,11 @@
     <url type="homepage">https://extensions.gnome.org/extension/1460/vitals/</url>
     <screenshots>
       <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1460.png</image>
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1460_s5gSQqX.png</image>
       </screenshot>
     </screenshots>
     <releases>
-      <release version="5"/>
+      <release version="7"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -4590,7 +4590,7 @@
     <id>arc-menu_linxgem33.com</id>
     <name>Arc Menu</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>The new applications menu for Gnome 3.</p></description>
+    <description><p>The alternative applications menu for Gnome 3.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -6906,6 +6906,29 @@
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
       <value key="shell-extensions::uuid">desktop-folder@hebertjulio.com.br</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
+    <id>desktop-icons_csoriano</id>
+    <name>Desktop Icons</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Add icons to the desktop</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <categories>
+      <category>Addon</category>
+      <category>ShellExtension</category>
+    </categories>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1465/desktop-icons/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1465_2g841mr.png</image>
+      </screenshot>
+    </screenshots>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">desktop-icons@csoriano</value>
     </metadata>
   </component>
   <component type="shell-extension">
@@ -9731,7 +9754,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="29"/>
+      <release version="30"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -9921,7 +9944,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="24"/>
+      <release version="25"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -10300,7 +10323,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="11"/>
+      <release version="12"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -11467,29 +11490,6 @@
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
       <value key="shell-extensions::uuid">indicator@johannes.super-productivity.com</value>
-    </metadata>
-  </component>
-  <component type="shell-extension">
-    <id>inhibit-suspend_lavi.a</id>
-    <name>Yet Another Inhibit Suspend Extension (User Menu)</name>
-    <summary>GNOME Shell Extension</summary>
-    <description><p>Yet Another Inhibit Suspend Extension is a GNOME shell extension that adds a switch to the User Menu that gives you the ability to inhibit auto-suspend or screensaver from activating. If you are using other extensions which modify the User Menu as well, make sure you are using the latest version to avoid conflicts (e.g. Alternative Status Menu). This extension is based on few already exisiting extensions with similar functions but different implementation. Translations are welcome (same as Raphael Kimmig&apos;s Gnome-Presentation-Mode).</p></description>
-    <icon type="stock">application-x-addon-symbolic</icon>
-    <categories>
-      <category>Addon</category>
-      <category>ShellExtension</category>
-    </categories>
-    <project_license>GPL-2.0+</project_license>
-    <url type="homepage">https://extensions.gnome.org/extension/241/yet-another-inhibit-suspend-extension-user-menu/</url>
-    <screenshots>
-      <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_241.png</image>
-      </screenshot>
-    </screenshots>
-    <metadata>
-      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
-      <value key="GnomeSoftware::Plugin">shell-extensions</value>
-      <value key="shell-extensions::uuid">inhibit-suspend@lavi.a</value>
     </metadata>
   </component>
   <component type="shell-extension">
@@ -14043,7 +14043,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="10"/>
+      <release version="12"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -14465,24 +14465,6 @@
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
       <value key="shell-extensions::uuid">optistatus@syntax-austria.org</value>
-    </metadata>
-  </component>
-  <component type="shell-extension">
-    <id>org.gnome.desktop-icons</id>
-    <name>Desktop Icons</name>
-    <summary>GNOME Shell Extension</summary>
-    <description><p>Add icons to the desktop</p></description>
-    <icon type="stock">application-x-addon-symbolic</icon>
-    <categories>
-      <category>Addon</category>
-      <category>ShellExtension</category>
-    </categories>
-    <project_license>GPL-2.0+</project_license>
-    <url type="homepage">https://extensions.gnome.org/extension/1428/desktop-icons/</url>
-    <metadata>
-      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
-      <value key="GnomeSoftware::Plugin">shell-extensions</value>
-      <value key="shell-extensions::uuid">org.gnome.desktop-icons</value>
     </metadata>
   </component>
   <component type="shell-extension">
@@ -15481,7 +15463,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="6"/>
+      <release version="7"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -16016,6 +15998,27 @@
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
       <value key="shell-extensions::uuid">rcd@criztovyl.space</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
+    <id>rdesktop-menu_bastien.git.geekwu.org</id>
+    <name>Rdesktop launcher</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Add a servers status menu for quickly running rdesktop</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <categories>
+      <category>Addon</category>
+      <category>ShellExtension</category>
+    </categories>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1467/rdesktop-launcher/</url>
+    <releases>
+      <release version="3"/>
+    </releases>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">rdesktop-menu@bastien.git.geekwu.org</value>
     </metadata>
   </component>
   <component type="shell-extension">
@@ -17480,29 +17483,6 @@
     </metadata>
   </component>
   <component type="shell-extension">
-    <id>shutdown-timer_lavi.a</id>
-    <name>Shutdown Timer</name>
-    <summary>GNOME Shell Extension</summary>
-    <description><p>A GNOME shell extension which adds a panel icon for delayed or scheduled power off. It&apos;s Simple, Localised, Just work, Safety features +Customizations (see README) Localised to Chinese, English(US,GB), Finnish, French, German, Greek, Hebrew, Italian, Norwegian, Portuguese, Russian and Spanish. More translations are welcome, contact through the homepage.</p></description>
-    <icon type="stock">application-x-addon-symbolic</icon>
-    <categories>
-      <category>Addon</category>
-      <category>ShellExtension</category>
-    </categories>
-    <project_license>GPL-2.0+</project_license>
-    <url type="homepage">https://extensions.gnome.org/extension/183/shutdown-timer/</url>
-    <screenshots>
-      <screenshot type="default">
-        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_183_2.png</image>
-      </screenshot>
-    </screenshots>
-    <metadata>
-      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
-      <value key="GnomeSoftware::Plugin">shell-extensions</value>
-      <value key="shell-extensions::uuid">shutdown-timer@lavi.a</value>
-    </metadata>
-  </component>
-  <component type="shell-extension">
     <id>shutdowntimer_lusk.cz</id>
     <name>Shutdown Timer</name>
     <summary>GNOME Shell Extension</summary>
@@ -18453,7 +18433,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="35"/>
+      <release version="36"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -18850,7 +18830,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="136"/>
+      <release version="137"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -19698,7 +19678,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="3"/>
+      <release version="4"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -21406,7 +21386,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="45"/>
+      <release version="46"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -21625,7 +21605,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="3"/>
+      <release version="4"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>

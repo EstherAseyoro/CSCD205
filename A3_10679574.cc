@@ -37,7 +37,7 @@ else if(score >= 45 && score <= 49)
   {
    cout<<"Grade E"<<endl;
   }
-else if(score >= 44 && score <= 0)
+else if(score <= 44 && score >= 0)
   {
    cout<<"Grade F"<<endl;
   }
